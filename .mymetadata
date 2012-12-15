@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="FriendBackup"
+  id="myeclipse.1351226421378"
+  context-root="/FriendBackup"
+  j2ee-spec="6.0"
+  archive="FriendBackup.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

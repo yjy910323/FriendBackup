@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="entity">
+	<class name="User" table="user">
+		<id name="id" type="java.lang.Integer">
+			<column name="id"/>
+			<generator class="identity"/>
+		</id>
+		<property name="email" type="java.lang.String">
+			<column length="32" name="email" not-null="true"/>
+		</property>
+		<property name="password" type="java.lang.String">
+			<column length="100" name="password" not-null="true"/>
+		</property>
+		<property name="accesscode" type="java.lang.String">
+			<column length="45" name="accesscode" not-null="false"/>
+		</property>
+		<property name="linkedinaccess" type="java.lang.String">
+			<column length="1000" name="linkedinaccess" not-null="false"/>
+		</property>
+		<property name="doubanaccess" type="java.lang.String">
+			<column length="1000" name="doubanaccess" not-null="false"/>
+		</property>
+		<property name="qqaccess" type="java.lang.String">
+			<column length="1000" name="qqaccess" not-null="false"/>
+		</property>
+		<property name="renrenaccess" type="java.lang.String">
+			<column length="1000" name="renrenaccess" not-null="false"/>
+		</property>
+		<property name="weiboaccess" type="java.lang.String">
+			<column length="1000" name="weiboaccess" not-null="false"/>
+		</property>
+		<property name="regtime" type="java.lang.String">
+			<column length="100" name="regtime" not-null="false"/>
+		</property>
+	</class>
+</hibernate-mapping>

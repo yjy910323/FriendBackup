@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>
+  <servlet>
+    <servlet-name>LinkedinAccess</servlet-name>
+    <servlet-class>servlet.LinkedinAccess</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Reg</servlet-name>
+    <servlet-class>servlet.Reg</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>servlet.Login</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Logout</servlet-name>
+    <servlet-class>servlet.Logout</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DetailInfo</servlet-name>
+    <servlet-class>servlet.DetailInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DetailSearch</servlet-name>
+    <servlet-class>servlet.DetailSearch</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Download</servlet-name>
+    <servlet-class>servlet.Download</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UserAccess</servlet-name>
+    <servlet-class>servlet.UserAccess</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SNSAccess</servlet-name>
+    <servlet-class>servlet.SNSAccess</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>OneInfo</servlet-name>
+    <servlet-class>servlet.OneInfo</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>LinkedinAccess</servlet-name>
+    <url-pattern>/servlet/LinkedinAccess</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Reg</servlet-name>
+    <url-pattern>/servlet/Reg</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/servlet/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Logout</servlet-name>
+    <url-pattern>/servlet/Logout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DetailInfo</servlet-name>
+    <url-pattern>/servlet/DetailInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DetailSearch</servlet-name>
+    <url-pattern>/servlet/DetailSearch</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Download</servlet-name>
+    <url-pattern>/servlet/Download</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserAccess</servlet-name>
+    <url-pattern>/servlet/UserAccess</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SNSAccess</servlet-name>
+    <url-pattern>/servlet/SNSAccess</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OneInfo</servlet-name>
+    <url-pattern>/servlet/OneInfo</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
